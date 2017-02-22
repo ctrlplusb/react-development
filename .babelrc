@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["env", { "targets": { "node": true } }],
+    "stage-3"
+  ],
+  "env": {
+    "umd": {
+      "presets": [
+        ["latest", { "es2015": { "modules": false } }],
+        "stage-3"
+      ],
+    }
+  }
+}
