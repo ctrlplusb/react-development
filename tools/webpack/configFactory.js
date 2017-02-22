@@ -12,11 +12,11 @@ function webpackConfigFactory({ target }) {
       index: ['react'],
     },
     output: {
-      path: resolvePath(appRootDir.get(), './umd'),
+      path: resolvePath(appRootDir.get(), './lib'),
       filename: minimize
         ? `${libraryName}.min.js`
         : `${libraryName}.js`,
-      library: libraryName,
+      library: 'React',
       libraryTarget: 'umd',
     },
     plugins: removeEmpty([

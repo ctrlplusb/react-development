@@ -9,4 +9,4 @@ node_modules
 npm-debug.log
 
 # Build output
-umd
+lib

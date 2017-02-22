@@ -24,6 +24,6 @@ function fileGZipSize(path) {
   )(path);
 }
 
-const umdMinFilePath = `umd/react.min.js`;
+const umdMinFilePath = `lib/react.min.js`;
 
 console.log(`\ngzipped, the UMD build is ${fileGZipSize(umdMinFilePath)}`);

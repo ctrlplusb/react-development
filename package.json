@@ -1,9 +1,9 @@
 {
   "name": "react-development",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "UMD build of React in development mode. i.e. warnings & proptypes on.",
   "files": [
-    "umd"
+    "lib"
   ],
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "build": "babel-node ./tools/scripts/build.js",
-    "clean": "rimraf ./umd",
+    "clean": "rimraf ./lib",
     "prepublish": "yarn run build"
   },
   "devDependencies": {
